@@ -1,0 +1,28 @@
+"""
+NodeMCU Pin Reference for Servo Connection
+D4 = GPIO2 (Pin 2)
+LED_BUILTIN = GPIO2 (same as D4)
+
+Correct pin connections:
+- Orange (signal) → D4 (GPIO2)
+- Red (5V) → 5V or VIN pin  
+- Brown (GND) → GND pin
+
+NodeMCU Pinout:
+        3V3   ──────┐
+        GND    ──────┤
+        TX     ──────┤
+        D4     ←─────┤ ← Servo signal (orange)
+        D3     ──────┤
+        D2     ──────┤
+        D1     ──────┤
+        D0     ──────┤
+        D5     ──────┤
+        D6     ──────┤
+        D7     ──────┤
+        D8     ──────┤
+        RX     ──────┤
+        5V     ──────┤ ← Servo power (red)
+        GND    ──────┤ ← Servo ground (brown)
+        3V3   ──────┘
+"""

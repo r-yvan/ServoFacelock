@@ -1,0 +1,6 @@
+.env/
+__pycache__/
+models/
+data/db/*
+data/db/enroll/**/*.jpg
+data/db/.gitkeep
