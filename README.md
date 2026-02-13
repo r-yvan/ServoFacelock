@@ -1,7 +1,6 @@
-# Distributed Vision-Control System (Face-Locked Servo)
+# ServoFacelock App
 
 **Team: necromancers**
-**Student: IRASUBIZA Saly Nelson**
 **Live Dashboard: http://157.173.101.159:9005/src/dashboard.html**
 
 ## Overview
@@ -245,3 +244,4 @@ GND        Ground (Brown/Black)
 ## Golden Rule
 
 **Vision computes. Devices speak MQTT. Browsers speak WebSocket. The backend relays in real time.**
+
